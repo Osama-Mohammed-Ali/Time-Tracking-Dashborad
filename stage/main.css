@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  background-color: var(--body-color);
+  color: white;
+  padding: 20px;
+}
+.main-container {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(1200px, 1fr));
+  /* width: fit-content; */
+  /* width: fit-content; */
+  justify-content: center;
+  /* align-items: center; */
+}
+.avatar {
+  background-color: var(--card-color);
+  border-radius: var(--radius);
+  width: 300px;
+}
+.avatar a {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: var(--nac-text);
+}
+.avatar a:nth-child(2) {
+  color: #ccc;
+}
+.in-front {
+  background-color: var(--avatar-back-color);
+  padding: 20px;
+  border-radius: var(--radius);
+  /* margin-bottom: 20px; */
+}
+.in-back {
+  background-color: var(--card-color);
+  padding: 20px;
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+.card {
+  border-radius: var(--radius);
+}
+.card h3 {
+  font-size: 70px;
+  margin: 20px 0;
+  font-weight: 300;
+}
+.det {
+  /* color: var(--nac-text); */
+  margin-bottom: 10px;
+}
+.front {
+  background-color: var(--card-color);
+  padding: 15px;
+  /* float: bottom; */
+  border-radius: var(--radius);
+}
+.time-dashborad {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid; */
+  grid-gap: 30px;
+}
+.card-one {
+  background-color: var(--card-one);
+}
+.card-two {
+  background-color: var(--card-two);
+}
+.card-thr {
+  background-color: var(--card-thr);
+}
+.card-for {
+  background-color: var(--card-for);
+}
+.card-fiv {
+  background-color: var(--card-fiv);
+}
+.card-sex {
+  background-color: var(--card-sex);
+}

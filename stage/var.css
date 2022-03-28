@@ -1,0 +1,13 @@
+:root {
+  --body-color: hsl(224deg 46% 9%);
+  --card-color: hsl(236deg 44% 20%);
+  --avatar-back-color: hsl(246deg 80% 60%);
+  --nac-text: hsl(237deg 42% 32%);
+  --card-one: hsl(15deg 100% 70%);
+  --card-two: hsl(195deg 74% 62%);
+  --card-thr: hsl(348deg 100% 68%);
+  --card-for: hsl(145deg 58% 55%);
+  --card-fiv: hsl(263deg 63% 51%);
+  --card-sex: hsl(43deg 84% 65%);
+  --radius: 15px;
+}
